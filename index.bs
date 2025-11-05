@@ -855,6 +855,7 @@ The <dfn method for=CookieStoreManager>unsubscribe(|subscriptions|)</dfn> method
         1. [=list/Remove=] any [=list/item=] from |subscription list| equal to |subscription|.
     1. [=/Resolve=] |p| with undefined.
 1. Return |p|.
+
 </div>
 
 
