@@ -819,7 +819,7 @@ The <dfn method for=CookieStoreManager>getSubscriptions()</dfn> method steps are
     1. Let |subscriptions| be |registration|'s associated [=cookie change subscription list=].
     1. Let |result| be « ».
     1. [=list/For each=] |subscription| in |subscriptions|, run these steps:
-        1. [=list/Append=] «[ "name" → |subscription|'s [=cookie change subscription/name=] if present, "url" → |subscription|'s [=cookie change subscription/url=]]» to |result|.
+        1. [=list/Append=] «[ "name" → |subscription|'s [=cookie change subscription/name=], "url" → |subscription|'s [=cookie change subscription/url=]]» to |result|.
     1. [=/Resolve=] |p| with |result|.
 1. Return |p|.
 
